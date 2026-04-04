@@ -173,9 +173,9 @@ ar:{
   heroA:'تأليف: الشيخ عبد الله ناصح علوان رحمه الله (١٩٢٨–١٩٨٧)',
   splashVerse:'﴿ وَالَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ ﴾',
   sacredVerse:'﴿ وَالَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا ﴾',
-  tabs:['🏠','📖','🛠️','🤔','📊','👶','💡','📚'],
-  tabL:['الرئيسية','الدروس','الوسائل','سيناريوهات','تقييم','مراحل','حلول','الكتاب'],
-  tabK:['home','lessons','methods','scenarios','assess','roadmap','solver','about'],
+  tabs:['🏠','📖','🛠️','🤔','📊','👶','💡','📿','🌟','🎯','💬','🏅','📚'],
+  tabL:['الرئيسية','الدروس','الوسائل','سيناريوهات','تقييم','مراحل','حلول','أحاديث','حقوق','أهداف','أقوال','روتين','الكتاب'],
+  tabK:['home','lessons','methods','scenarios','assess','roadmap','solver','hadiths','rights','goals','quotes','routine','about'],
   duaTitle:'🤲 أدعية للأولاد',
   aboutAT:'📖 المؤلف',aboutA:'الشيخ عبد الله ناصح علوان (١٩٢٨–١٩٨٧) عالم ومربٍّ سوري من حلب. درس في الأزهر وحصل على الدكتوراه. رائد التأليف المنهجي في تربية الأولاد في الإسلام. ألّف أكثر من ٥٠ كتاباً.',
   aboutBT:'📚 الكتاب',aboutB:'موسوعة تربوية في مجلدين (١٠٢٤ صفحة) تعالج تربية الأولاد من الولادة حتى الزواج وفق الكتاب والسنة.',
@@ -205,7 +205,12 @@ ar:{
     {q:'أمك تطلب ترتيب غرفتك وأنت تريد اللعب.',opts:['أقول «بعدين»','أطيع فوراً ثم ألعب','أغضب وأصرخ','أتظاهر بأنني لم أسمع'],c:1,fb:'طاعة الوالدين واجبة. «وَوَصَّيْنَا الْإِنسَانَ بِوَالِدَيْهِ حُسْنًا».'},
     {q:'سقط زميلك وتأذّى.',opts:['أضحك','أساعده وأطمئن عليه','أمشي','أنادي ليشاهدوا'],c:1,fb:'«من لا يرحم لا يُرحم». المساعدة والرحمة من أعظم الأخلاق.'},
     {q:'وجدت نقوداً في الشارع.',opts:['آخذها','أعطيها لأبي ونبحث عن صاحبها','أتركها','أشتري حلويات'],c:1,fb:'الأمانة من أعظم القيم. «أدِّ الأمانة إلى من ائتمنك».'},
-    {q:'صديقك يسبّ الآخرين.',opts:['أسبّ معه','أنصحه وإن لم يستمع أبتعد','لا أفعل شيئاً','أبلّغ فوراً'],c:1,fb:'النصيحة أولاً ثم الابتعاد. «ليس المؤمن بالطعّان ولا اللعّان».'}
+    {q:'صديقك يسبّ الآخرين.',opts:['أسبّ معه','أنصحه وإن لم يستمع أبتعد','لا أفعل شيئاً','أبلّغ فوراً'],c:1,fb:'النصيحة أولاً ثم الابتعاد. «ليس المؤمن بالطعّان ولا اللعّان».'},
+    {q:'أخوك الصغير يبكي ويريد لعبتك.',opts:['أصرخ عليه','أشاركه اللعبة بلطف','آخذها وأختبئ','أكسرها حتى لا يأخذها'],c:1,fb:'المشاركة والرحمة مع الصغير. «ارحموا من في الأرض يرحمكم من في السماء».'},
+    {q:'رأيت تنمّراً على زميلك في المدرسة.',opts:['أشاهد فقط','أدافع عنه وأطلب المساعدة','أشارك في التنمر','أهرب'],c:1,fb:'نصرة المظلوم واجب. «انصر أخاك ظالماً أو مظلوماً».'},
+    {q:'والدك يطلب منك إغلاق الهاتف والنوم.',opts:['أتجاهله','أطيع فوراً','أختبئ تحت الغطاء','أغضب'],c:1,fb:'طاعة الوالدين في المعروف واجبة. النوم المبكر صحة ونشاط.'},
+    {q:'وجدت صديقك حزيناً في المدرسة.',opts:['أتجاهله','أسأله وأحاول مساعدته','أضحك عليه','أخبر الجميع'],c:1,fb:'السؤال والمواساة من أخلاق المسلم. «المؤمن للمؤمن كالبنيان يشد بعضه بعضاً».'},
+    {q:'معلمك أخطأ في معلومة.',opts:['أصرخ: أنت غلطان!','أنبهه بأدب بعد الدرس','أسخر منه','لا أفعل شيئاً'],c:1,fb:'تنبيه المعلم بأدب واحترام. «ليس منا من لم يوقر كبيرنا».'}
   ],
   assessT:'تقييم ذاتي يومي',assessD:'راجع سلوكك بصدق',
   assessItems:[
@@ -213,7 +218,12 @@ ar:{
     {em:'😇',t:'صدقت ولم أكذب',s:'الصدق يهدي إلى البر'},{em:'👨‍👩‍👧',t:'أطعت والديّ',s:'رضا الله في رضا الوالدين'},
     {em:'🤝',t:'ساعدت محتاجاً',s:'والله في عون العبد ما كان في عون أخيه'},{em:'📚',t:'تعلمت شيئاً جديداً',s:'اطلبوا العلم'},
     {em:'🗣️',t:'تكلمت بالخير فقط',s:'فليقل خيراً أو ليصمت'},{em:'💪',t:'مارست الرياضة',s:'المؤمن القوي خير'},
-    {em:'😊',t:'تبسمت وكنت إيجابياً',s:'تبسمك صدقة'},{em:'🌙',t:'نمت مبكراً للفجر',s:'بُورك لأمتي في بكورها'}
+    {em:'😊',t:'تبسمت وكنت إيجابياً',s:'تبسمك صدقة'},{em:'🌙',t:'نمت مبكراً للفجر',s:'بُورك لأمتي في بكورها'},
+    {em:'🤲',t:'دعوت لوالديّ',s:'رب ارحمهما كما ربياني صغيراً'},
+    {em:'🧹',t:'ساعدت في ترتيب البيت',s:'المؤمن القوي خير'},
+    {em:'📵',t:'قللت وقت الشاشة',s:'وقتك حياتك'},
+    {em:'🌳',t:'خرجت للطبيعة',s:'تفكروا في خلق الله'},
+    {em:'🫂',t:'عانقت أحد والديّ',s:'برّ الوالدين من أعظم الأعمال'}
   ],today:'اليوم',total:'المجموع',
   roadT:'المنهج حسب العمر',roadD:'ماذا تعلّم طفلك في كل مرحلة',
   road:[
@@ -229,7 +239,63 @@ ar:{
     {ic:'🕌',t:'لا يصلي',p:'يتهرب من الصلاة',sol:'التحبيب لا الإجبار — صلِّ أمامه — اصطحبه للمسجد — لا تصرخ بسبب الصلاة — بعد ١٠: حزم متدرج.'},
     {ic:'📱',t:'مدمن شاشات',p:'ساعات على الأجهزة',sol:'قواعد واضحة — بدائل (رياضة، قراءة) — كن قدوة — راقب المحتوى — أوقات أسرة بلا أجهزة.'},
     {ic:'👊',t:'يضرب الآخرين',p:'عدواني',sol:'لا تضربه لتعلمه عدم الضرب! — علّمه التعبير بالكلام — اعدل بين الأبناء — كافئ الهدوء.'},
-    {ic:'😰',t:'خجول جداً',p:'يخاف من الناس',sol:'لا تصفه بالخجول أمام الآخرين — تعريض تدريجي — مدح كل محاولة — رياضة جماعية.'}
+    {ic:'😰',t:'خجول جداً',p:'يخاف من الناس',sol:'لا تصفه بالخجول أمام الآخرين — تعريض تدريجي — مدح كل محاولة — رياضة جماعية.'},
+    {ic:'🍽️',t:'يرفض الأكل',p:'انتقائي جداً',sol:'<strong>لا تجبره:</strong> قدم خيارات — اجعله يشارك في التحضير — لا حلويات قبل الطعام — الصبر والتكرار.'},
+    {ic:'😢',t:'يبكي كثيراً',p:'حساس مفرط',sol:'<strong>لا تقل له "لا تبكِ":</strong> اسمع مشاعره — ساعده يعبر بالكلام — الحضن يهدئ — الأمان النفسي أولاً.'},
+    {ic:'🤝',t:'لا أصدقاء',p:'منعزل',sol:'ادعُ أطفالاً للبيت — نشاطات جماعية — مسجد وحلقات — مهارات اجتماعية بالتدريب.'},
+    {ic:'📝',t:'لا يذاكر',p:'يكره الدراسة',sol:'<strong>الأسباب:</strong> صعوبة — ملل — خوف من الفشل.<br><strong>العلاج:</strong> بيئة مناسبة — جدول محدد — مكافآت — تعلم باللعب.'}
+  ],
+  hadithsT:'📿 أحاديث في التربية',hadithsD:'أحاديث نبوية شريفة في تربية الأولاد',
+  hadithsList:[
+    {text:'مروا أولادكم بالصلاة وهم أبناء سبع سنين واضربوهم عليها وهم أبناء عشر',src:'رواه أبو داود',cat:'الصلاة'},
+    {text:'أكرموا أولادكم وأحسنوا أدبهم',src:'رواه ابن ماجه',cat:'الإكرام'},
+    {text:'ما نحل والد ولداً من نحل أفضل من أدب حسن',src:'رواه الترمذي',cat:'الأدب'},
+    {text:'كلكم راع وكلكم مسؤول عن رعيته',src:'متفق عليه',cat:'المسؤولية'},
+    {text:'علموا أولادكم السباحة والرماية وركوب الخيل',src:'أثر عن عمر',cat:'الرياضة'},
+    {text:'خيركم خيركم لأهله وأنا خيركم لأهلي',src:'رواه الترمذي',cat:'الأسرة'},
+    {text:'رفقاً بالقوارير',src:'رواه البخاري',cat:'البنات'},
+    {text:'من عال جاريتين حتى تبلغا جاء يوم القيامة أنا وهو كهاتين',src:'رواه مسلم',cat:'البنات'},
+    {text:'ليس منا من لم يرحم صغيرنا ويوقر كبيرنا',src:'رواه الترمذي',cat:'الرحمة'},
+    {text:'اللهم إني أعوذ بك من ولد يكون عليّ ربّاً',src:'دعاء مأثور',cat:'الدعاء'}
+  ],
+  rightsT:'🌟 حقوق الطفل في الإسلام',rightsD:'حقوق كفلها الإسلام للطفل قبل أي ميثاق دولي',
+  rightsList:[
+    {ic:'💍',t:'اختيار الأم الصالحة',d:'من حق الطفل أن يختار له أبوه أماً صالحة ذات دين وخلق.'},
+    {ic:'📛',t:'الاسم الحسن',d:'من حق المولود أن يُسمى اسماً حسناً لا يُسبب له حرجاً.'},
+    {ic:'🍼',t:'الرضاعة والنفقة',d:'من حق الطفل الرضاعة حولين كاملين والنفقة الكافية.'},
+    {ic:'📚',t:'التعليم',d:'من حق الطفل أن يُعلّم القراءة والكتابة والدين والعلوم النافعة.'},
+    {ic:'⚖️',t:'العدل بين الأبناء',d:'من حقه العدل في المعاملة بين الإخوة — في الهدايا والاهتمام والحب.'},
+    {ic:'💪',t:'الصحة والرياضة',d:'من حقه العناية بصحته وتغذيته وتشجيعه على الرياضة.'},
+    {ic:'🤗',t:'الحب والأمان',d:'من حقه أن يشعر بالحب والأمان والاستقرار النفسي.'},
+    {ic:'🗣️',t:'الاستماع والحوار',d:'من حقه أن يُستمع إليه وأن يشارك في الحوار الأسري.'}
+  ],
+  goalsT:'🎯 أهداف التربية',goalsD:'الأهداف الكبرى للتربية الإسلامية من الكتاب',
+  goalsList:[
+    {n:'١',t:'عبد صالح',d:'الهدف الأسمى: تكوين إنسان يعبد الله حق العبادة ويعرف رسالته في الحياة.'},
+    {n:'٢',t:'شخصية متوازنة',d:'بناء شخصية متوازنة روحياً وعقلياً وجسدياً ونفسياً واجتماعياً.'},
+    {n:'٣',t:'مواطن صالح',d:'تكوين فرد ينفع مجتمعه ويساهم في بنائه ويحمل المسؤولية.'},
+    {n:'٤',t:'قائد مؤثر',d:'إعداد جيل يقود لا يُقاد — يأمر بالمعروف وينهى عن المنكر.'},
+    {n:'٥',t:'حامل رسالة',d:'تربية أبناء يحملون رسالة الإسلام ويبلغونها للعالمين بالقدوة والكلمة.'}
+  ],
+  quotesT:'💬 أقوال في التربية',quotesD:'حِكم ومقولات تربوية من علماء الإسلام',
+  quotesList:[
+    {q:'أدّب ابنك صغيراً يسرّك كبيراً',s:'علي بن أبي طالب'},
+    {q:'التعليم في الصغر كالنقش في الحجر',s:'مثل عربي'},
+    {q:'لاعب ابنك سبعاً وأدّبه سبعاً وصاحبه سبعاً',s:'حكمة تربوية'},
+    {q:'إن أولادكم هبة الله لكم فلا تضيعوهم',s:'عبد الله ناصح علوان'},
+    {q:'ما ورّث والد ولده شيئاً أفضل من حسن الأدب',s:'الحديث الشريف'},
+    {q:'ازرع في طفلك الإيمان قبل أن يزرع فيه الشيطان الشك',s:'ابن القيم'},
+    {q:'الأم مدرسة إذا أعددتها أعددت شعباً طيب الأعراق',s:'حافظ إبراهيم'},
+    {q:'العصا لمن عصى والحلوى لمن أطاع — لكن الحلوى أولاً',s:'حكمة تربوية'}
+  ],
+  routineT:'🏅 الروتين اليومي الإسلامي',routineD:'برنامج يومي مقترح للطفل المسلم',
+  routineList:[
+    {time:'🌅 الفجر',items:['الاستيقاظ لصلاة الفجر','أذكار الصباح','قراءة ورد قرآني']},
+    {time:'☀️ الصباح',items:['الإفطار مع البسملة','الذهاب للمدرسة أو التعلم','المذاكرة والتحصيل']},
+    {time:'🕐 الظهر',items:['صلاة الظهر','الغداء مع الأسرة','قيلولة قصيرة']},
+    {time:'🌤️ العصر',items:['صلاة العصر','الرياضة واللعب','وقت المواهب والهوايات']},
+    {time:'🌆 المغرب',items:['صلاة المغرب','حفظ القرآن','وقت الأسرة والحوار']},
+    {time:'🌙 العشاء',items:['صلاة العشاء','المراجعة والقراءة','أذكار النوم والنوم مبكراً']}
   ],
   ftrV:'﴿ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا ﴾',
   ftrC:'📖 تربية الأولاد في الإسلام — للشيخ عبد الله ناصح علوان',
@@ -240,7 +306,12 @@ ar:{
     {ic:'🤔',t:'ماذا تفعل لو...؟',d:'مواقف واقعية تربوية مع المنهج الإسلامي.',to:'scenarios'},
     {ic:'📊',t:'تقييم ذاتي',d:'راجع سلوكك بصدق كل يوم.',to:'assess'},
     {ic:'👶',t:'المنهج حسب العمر',d:'من الولادة حتى البلوغ.',to:'roadmap'},
-    {ic:'💡',t:'حلول تربوية',d:'الكذب، العناد، ترك الصلاة... مع حلول.',to:'solver'}
+    {ic:'💡',t:'حلول تربوية',d:'الكذب، العناد، ترك الصلاة... مع حلول.',to:'solver'},
+    {ic:'📿',t:'أحاديث التربية',d:'أحاديث نبوية في تربية الأولاد.',to:'hadiths'},
+    {ic:'🌟',t:'حقوق الطفل',d:'حقوق كفلها الإسلام للطفل.',to:'rights'},
+    {ic:'🎯',t:'أهداف التربية',d:'الأهداف الكبرى للتربية الإسلامية.',to:'goals'},
+    {ic:'💬',t:'أقوال تربوية',d:'حِكم ومقولات من علماء الإسلام.',to:'quotes'},
+    {ic:'🏅',t:'الروتين اليومي',d:'برنامج يومي مقترح للطفل المسلم.',to:'routine'}
   ]
 },
 en:{
@@ -250,9 +321,9 @@ en:{
   heroA:'By Sheikh Abdullah Nasih Ulwan (1928–1987)',
   splashVerse:'"Our Lord, grant us from our spouses and offspring comfort to our eyes" (25:74)',
   sacredVerse:'"Our Lord, grant us from our spouses and offspring comfort to our eyes, and make us leaders for the righteous." (25:74)',
-  tabs:['🏠','📖','🛠️','🤔','📊','👶','💡','📚'],
-  tabL:['Home','Lessons','Methods','Scenarios','Assess','Ages','Solver','The Book'],
-  tabK:['home','lessons','methods','scenarios','assess','roadmap','solver','about'],
+  tabs:['🏠','📖','🛠️','🤔','📊','👶','💡','📿','🌟','🎯','💬','🏅','📚'],
+  tabL:['Home','Lessons','Methods','Scenarios','Assess','Ages','Solver','Hadiths','Rights','Goals','Quotes','Routine','The Book'],
+  tabK:['home','lessons','methods','scenarios','assess','roadmap','solver','hadiths','rights','goals','quotes','routine','about'],
   duaTitle:'🤲 Duas for Children',
   aboutAT:'📖 The Author',aboutA:'Sheikh Abdullah Nasih Ulwan (1928–1987), Syrian scholar from Aleppo. Studied at Al-Azhar, earned doctorate. Pioneer of systematic Islamic child-rearing literature. Over 50 books.',
   aboutBT:'📚 The Book',aboutB:'Educational encyclopedia in 2 volumes (1,024 pages), covering child-rearing from birth to marriage based on Quran and Sunnah.',
@@ -282,7 +353,12 @@ en:{
     {q:'Mom asks you to clean but you want to play.',opts:['Say "later"','Obey immediately, then play','Get angry','Pretend not to hear'],c:1,fb:'Obeying parents is obligatory. "We have enjoined upon man goodness to his parents."'},
     {q:'Your classmate falls and gets hurt.',opts:['Laugh','Help and check on them','Walk away','Call others to watch'],c:1,fb:'"Whoever shows no mercy will be shown no mercy." Helping is among greatest virtues.'},
     {q:'You find money on the street.',opts:['Take it','Give to parents, search for owner','Leave it','Buy sweets'],c:1,fb:'Trustworthiness is paramount. "Return the trust to who entrusted you."'},
-    {q:'Your friend curses others.',opts:['Curse with them','Advise, if refused distance yourself','Nothing','Report immediately'],c:1,fb:'Advise first, then distance. "A believer is not one who taunts or curses."'}
+    {q:'Your friend curses others.',opts:['Curse with them','Advise, if refused distance yourself','Nothing','Report immediately'],c:1,fb:'Advise first, then distance. "A believer is not one who taunts or curses."'},
+    {q:'Your little sibling is crying and wants your toy.',opts:['Yell at them','Share the toy kindly','Hide with it','Break it so they can\'t have it'],c:1,fb:'Sharing and mercy with the young. "Show mercy to those on earth and the One in heaven will show mercy to you."'},
+    {q:'You see someone being bullied at school.',opts:['Just watch','Defend them and get help','Join the bullying','Run away'],c:1,fb:'Supporting the oppressed is a duty. "Help your brother whether oppressor or oppressed."'},
+    {q:'Your father tells you to turn off your phone and sleep.',opts:['Ignore him','Obey right away','Hide under the blanket','Get angry'],c:1,fb:'Obeying parents in good is obligatory. Early sleep means health and energy.'},
+    {q:'You find your friend sad at school.',opts:['Ignore them','Ask and try to help','Laugh at them','Tell everyone'],c:1,fb:'Asking and consoling is Islamic character. "A believer is to another like a building, each part supports the other."'},
+    {q:'Your teacher makes a factual mistake.',opts:['Shout: You are wrong!','Politely mention it after class','Mock them','Do nothing'],c:1,fb:'Correcting the teacher with manners and respect. "Not one of us who does not respect our elders."'}
   ],
   assessT:'Daily Self-Assessment',assessD:'Honestly review your behavior',
   assessItems:[
@@ -290,7 +366,12 @@ en:{
     {em:'😇',t:'Was truthful',s:'Truthfulness leads to righteousness'},{em:'👨‍👩‍👧',t:'Obeyed parents',s:'Allah\'s pleasure in parents\' pleasure'},
     {em:'🤝',t:'Helped someone',s:'Allah helps who helps others'},{em:'📚',t:'Learned something new',s:'Seek knowledge'},
     {em:'🗣️',t:'Spoke only good',s:'Speak good or remain silent'},{em:'💪',t:'Exercised',s:'Strong believer is better'},
-    {em:'😊',t:'Smiled & was positive',s:'Your smile is charity'},{em:'🌙',t:'Slept early for Fajr',s:'Blessed in early mornings'}
+    {em:'😊',t:'Smiled & was positive',s:'Your smile is charity'},{em:'🌙',t:'Slept early for Fajr',s:'Blessed in early mornings'},
+    {em:'🤲',t:'Made dua for parents',s:'My Lord, have mercy as they raised me'},
+    {em:'🧹',t:'Helped tidy the house',s:'A strong believer is better'},
+    {em:'📵',t:'Reduced screen time',s:'Your time is your life'},
+    {em:'🌳',t:'Went outside to nature',s:'Reflect on Allah\'s creation'},
+    {em:'🫂',t:'Hugged a parent',s:'Honoring parents is among the greatest deeds'}
   ],today:'Today',total:'Total',
   roadT:'Age-Based Curriculum',roadD:'What to teach at each stage',
   road:[
@@ -306,7 +387,63 @@ en:{
     {ic:'🕌',t:'Won\'t pray',p:'Avoids prayer',sol:'Encourage, don\'t force — Pray in front of them — Take to mosque — Never yell about prayer — After 10: gradual firmness.'},
     {ic:'📱',t:'Screen addiction',p:'Hours on devices',sol:'Clear rules — Alternatives (sports, reading) — Be a model — Monitor content — Device-free family time.'},
     {ic:'👊',t:'Hits others',p:'Aggressive',sol:'Don\'t hit to teach not hitting! — Teach verbal expression — Be fair — Reward calm behavior.'},
-    {ic:'😰',t:'Very shy',p:'Afraid of people',sol:'Don\'t label "shy" publicly — Gradual exposure — Praise attempts — Team sports.'}
+    {ic:'😰',t:'Very shy',p:'Afraid of people',sol:'Don\'t label "shy" publicly — Gradual exposure — Praise attempts — Team sports.'},
+    {ic:'🍽️',t:'Picky eater',p:'Refuses food',sol:'<strong>Don\'t force:</strong> Offer choices — Let them help cook — No sweets before meals — Patience and repetition.'},
+    {ic:'😢',t:'Cries a lot',p:'Overly sensitive',sol:'<strong>Don\'t say "stop crying":</strong> Listen to feelings — Help express with words — Hugs calm — Emotional safety first.'},
+    {ic:'🤝',t:'No friends',p:'Isolated',sol:'Invite kids over — Group activities — Mosque circles — Social skills through practice.'},
+    {ic:'📝',t:'Won\'t study',p:'Hates school',sol:'<strong>Causes:</strong> Difficulty — Boredom — Fear of failure.<br><strong>Fix:</strong> Good environment — Set schedule — Rewards — Learn through play.'}
+  ],
+  hadithsT:'📿 Parenting Hadiths',hadithsD:'Prophetic traditions on raising children',
+  hadithsList:[
+    {text:'Command your children to pray at seven and discipline them for it at ten',src:'Abu Dawud',cat:'Prayer'},
+    {text:'Honor your children and perfect their upbringing',src:'Ibn Majah',cat:'Honor'},
+    {text:'The best gift a parent can give their child is good manners',src:'Tirmidhi',cat:'Manners'},
+    {text:'Each of you is a shepherd and responsible for their flock',src:'Agreed upon',cat:'Responsibility'},
+    {text:'Teach your children swimming, archery, and horse riding',src:'Umar tradition',cat:'Sports'},
+    {text:'The best of you are those who are best to their families',src:'Tirmidhi',cat:'Family'},
+    {text:'Be gentle with these fragile vessels',src:'Bukhari',cat:'Girls'},
+    {text:'Whoever raises two daughters well will come with me on the Day of Judgment like this',src:'Muslim',cat:'Girls'},
+    {text:'He is not one of us who does not show mercy to our young',src:'Tirmidhi',cat:'Mercy'},
+    {text:'O Allah, I seek refuge in You from a child who becomes a burden',src:'Traditional dua',cat:'Dua'}
+  ],
+  rightsT:'🌟 Children\'s Rights in Islam',rightsD:'Rights Islam guaranteed children before any international charter',
+  rightsList:[
+    {ic:'💍',t:'Choosing a righteous mother',d:'A child has the right to a father who chooses a righteous mother of good faith and character.'},
+    {ic:'📛',t:'A good name',d:'A newborn has the right to be given a beautiful name that causes no embarrassment.'},
+    {ic:'🍼',t:'Nursing and provision',d:'A child has the right to two full years of nursing and adequate provision.'},
+    {ic:'📚',t:'Education',d:'A child has the right to learn reading, writing, religion, and beneficial sciences.'},
+    {ic:'⚖️',t:'Justice among siblings',d:'A child has the right to fair treatment among siblings — in gifts, attention, and love.'},
+    {ic:'💪',t:'Health and sports',d:'A child has the right to health care, nutrition, and encouragement in physical activity.'},
+    {ic:'🤗',t:'Love and security',d:'A child has the right to feel love, security, and psychological stability.'},
+    {ic:'🗣️',t:'Being heard',d:'A child has the right to be listened to and to participate in family discussions.'}
+  ],
+  goalsT:'🎯 Goals of Islamic Education',goalsD:'The grand objectives of Islamic child-rearing from the book',
+  goalsList:[
+    {n:'1',t:'A righteous servant',d:'The supreme goal: forming a person who worships Allah properly and knows their mission in life.'},
+    {n:'2',t:'Balanced personality',d:'Building a personality balanced spiritually, intellectually, physically, psychologically, and socially.'},
+    {n:'3',t:'Good citizen',d:'Forming an individual who benefits their community, contributes to building it, and carries responsibility.'},
+    {n:'4',t:'Influential leader',d:'Preparing a generation that leads, not follows — commanding good and forbidding evil.'},
+    {n:'5',t:'Message bearer',d:'Raising children who carry the message of Islam and convey it to the world by example and word.'}
+  ],
+  quotesT:'💬 Parenting Wisdom',quotesD:'Wise sayings on child-rearing from Islamic scholars',
+  quotesList:[
+    {q:'Discipline your child when young and they will delight you when grown',s:'Ali ibn Abi Talib'},
+    {q:'Teaching in childhood is like engraving in stone',s:'Arabic proverb'},
+    {q:'Play with your child for seven, discipline for seven, befriend for seven',s:'Parenting wisdom'},
+    {q:'Your children are a gift from Allah — do not waste them',s:'Abdullah Nasih Ulwan'},
+    {q:'No parent has left their child anything better than good manners',s:'Prophetic hadith'},
+    {q:'Plant faith in your child before Satan plants doubt',s:'Ibn al-Qayyim'},
+    {q:'The mother is a school — prepare her well and you prepare a fine nation',s:'Hafiz Ibrahim'},
+    {q:'The stick is for the disobedient, sweets for the obedient — but sweets come first',s:'Parenting wisdom'}
+  ],
+  routineT:'🏅 Daily Islamic Routine',routineD:'A suggested daily program for a Muslim child',
+  routineList:[
+    {time:'🌅 Fajr',items:['Wake up for Fajr prayer','Morning remembrances','Read Quran portion']},
+    {time:'☀️ Morning',items:['Breakfast with Bismillah','School or learning','Study and review']},
+    {time:'🕐 Dhuhr',items:['Dhuhr prayer','Lunch with family','Short nap']},
+    {time:'🌤️ Asr',items:['Asr prayer','Sports and play','Talents and hobbies time']},
+    {time:'🌆 Maghrib',items:['Maghrib prayer','Quran memorization','Family time and dialogue']},
+    {time:'🌙 Isha',items:['Isha prayer','Review and reading','Sleep remembrances and early sleep']}
   ],
   ftrV:'"Our Lord, grant us from our spouses and offspring comfort to our eyes and make us leaders for the righteous." (25:74)',
   ftrC:'📖 Tarbiyat al-Awlad — Inspired by "Raising Children in Islam" by Sheikh Abdullah Nasih Ulwan',
@@ -317,7 +454,12 @@ en:{
     {ic:'🤔',t:'What Would You Do?',d:'Real moral scenarios with Islamic guidance.',to:'scenarios'},
     {ic:'📊',t:'Self-Assessment',d:'Honestly review your daily behavior.',to:'assess'},
     {ic:'👶',t:'Age Curriculum',d:'From birth to puberty — what to teach when.',to:'roadmap'},
-    {ic:'💡',t:'Problem Solver',d:'Lying, stubbornness, prayer... with solutions.',to:'solver'}
+    {ic:'💡',t:'Problem Solver',d:'Lying, stubbornness, prayer... with solutions.',to:'solver'},
+    {ic:'📿',t:'Parenting Hadiths',d:'Prophetic traditions on raising children.',to:'hadiths'},
+    {ic:'🌟',t:'Children\'s Rights',d:'Rights Islam guaranteed to children.',to:'rights'},
+    {ic:'🎯',t:'Education Goals',d:'The grand objectives of Islamic child-rearing.',to:'goals'},
+    {ic:'💬',t:'Parenting Wisdom',d:'Wise sayings from Islamic scholars.',to:'quotes'},
+    {ic:'🏅',t:'Daily Routine',d:'A suggested daily program for Muslim children.',to:'routine'}
   ]
 },
 fr:{
@@ -327,9 +469,9 @@ fr:{
   heroA:'Par Cheikh Abdullah Nasih Ulwan (1928–1987)',
   splashVerse:'« Seigneur, fais que nos épouses et nos descendants soient la prunelle de nos yeux » (25:74)',
   sacredVerse:'« Seigneur, fais que nos épouses et nos descendants soient la prunelle de nos yeux, et fais de nous un guide pour les pieux. » (25:74)',
-  tabs:['🏠','📖','🛠️','🤔','📊','👶','💡','📚'],
-  tabL:['Accueil','Leçons','Méthodes','Scénarios','Évaluation','Âges','Solutions','Le livre'],
-  tabK:['home','lessons','methods','scenarios','assess','roadmap','solver','about'],
+  tabs:['🏠','📖','🛠️','🤔','📊','👶','💡','📿','🌟','🎯','💬','🏅','📚'],
+  tabL:['Accueil','Lecons','Methodes','Scenarios','Evaluation','Ages','Solutions','Hadiths','Droits','Objectifs','Citations','Routine','Le livre'],
+  tabK:['home','lessons','methods','scenarios','assess','roadmap','solver','hadiths','rights','goals','quotes','routine','about'],
   duaTitle:'🤲 Invocations pour les enfants',
   aboutAT:'📖 L\'auteur',aboutA:'Cheikh Abdullah Nasih Ulwan (1928–1987), savant syrien d\'Alep. Diplômé d\'Al-Azhar, docteur. Pionnier de l\'éducation islamique. Plus de 50 ouvrages.',
   aboutBT:'📚 Le livre',aboutB:'Encyclopédie en 2 volumes (1024 pages), de la naissance au mariage selon le Coran et la Sunna.',
@@ -359,7 +501,12 @@ fr:{
     {q:'Ta mère demande de ranger mais tu veux jouer.',opts:['Je dis « plus tard »','J\'obéis puis je joue','Je me fâche','Je fais semblant'],c:1,fb:'Obéir aux parents est obligatoire. « Nous avons recommandé la bienfaisance envers les parents. »'},
     {q:'Ton camarade tombe et se blesse.',opts:['Je ris','Je l\'aide','Je m\'en vais','J\'appelle les autres'],c:1,fb:'« Celui qui ne fait pas miséricorde n\'en recevra pas. »'},
     {q:'Tu trouves de l\'argent sans propriétaire.',opts:['Je le prends','Je le donne à mes parents','Je le laisse','J\'achète des bonbons'],c:1,fb:'L\'honnêteté est fondamentale. « Rends le dépôt à celui qui te l\'a confié. »'},
-    {q:'Ton ami insulte les autres.',opts:['J\'insulte avec lui','Je conseille, sinon je m\'éloigne','Rien','Je dénonce'],c:1,fb:'Conseiller puis s\'éloigner. « Le croyant n\'est ni diffamateur ni maudisseur. »'}
+    {q:'Ton ami insulte les autres.',opts:['J\'insulte avec lui','Je conseille, sinon je m\'eloigne','Rien','Je denonce'],c:1,fb:'Conseiller puis s\'eloigner. « Le croyant n\'est ni diffamateur ni maudisseur. »'},
+    {q:'Ton petit frere pleure et veut ton jouet.',opts:['Je crie','Je partage gentiment','Je me cache avec','Je le casse'],c:1,fb:'Partager et etre misericordieux. « Soyez misericordieux envers ceux sur terre. »'},
+    {q:'Tu vois quelqu\'un intimider ton camarade.',opts:['Je regarde','Je le defends et demande de l\'aide','Je participe','Je fuis'],c:1,fb:'Soutenir l\'opprime est un devoir. « Aide ton frere oppresseur ou opprime. »'},
+    {q:'Ton pere te demande d\'eteindre le telephone et dormir.',opts:['Je l\'ignore','J\'obeis tout de suite','Je me cache sous la couverture','Je me fache'],c:1,fb:'Obeir aux parents dans le bien est obligatoire. Le sommeil precoce est sante et energie.'},
+    {q:'Tu trouves ton ami triste a l\'ecole.',opts:['Je l\'ignore','Je demande et essaie d\'aider','Je ris de lui','Je dis a tout le monde'],c:1,fb:'Demander et consoler fait partie du caractere musulman. « Le croyant pour le croyant est comme un edifice. »'},
+    {q:'Ton professeur fait une erreur factuelle.',opts:['Je crie : Tu as tort !','Je le signale poliment apres le cours','Je me moque','Rien'],c:1,fb:'Corriger le professeur avec politesse et respect. « N\'est pas des notres celui qui ne respecte pas nos aines. »'}
   ],
   assessT:'Auto-évaluation quotidienne',assessD:'Évaluez honnêtement votre comportement',
   assessItems:[
@@ -367,7 +514,12 @@ fr:{
     {em:'😇',t:'Été honnête',s:'La vérité mène à la droiture'},{em:'👨‍👩‍👧',t:'Obéi aux parents',s:'Satisfaction d\'Allah dans celle des parents'},
     {em:'🤝',t:'Aidé quelqu\'un',s:'Allah aide qui aide'},{em:'📚',t:'Appris quelque chose',s:'Cherchez le savoir'},
     {em:'🗣️',t:'Dit du bien uniquement',s:'Dites du bien ou taisez-vous'},{em:'💪',t:'Fait du sport',s:'Le croyant fort est meilleur'},
-    {em:'😊',t:'Souri et été positif',s:'Ton sourire est une charité'},{em:'🌙',t:'Dormi tôt pour le Fajr',s:'Bénis dans les matinées'}
+    {em:'😊',t:'Souri et ete positif',s:'Ton sourire est une charite'},{em:'🌙',t:'Dormi tot pour le Fajr',s:'Benis dans les matinees'},
+    {em:'🤲',t:'Invoque pour mes parents',s:'Mon Seigneur, aie pitie comme ils m\'ont eleve'},
+    {em:'🧹',t:'Aide a ranger la maison',s:'Le croyant fort est meilleur'},
+    {em:'📵',t:'Reduit le temps d\'ecran',s:'Ton temps est ta vie'},
+    {em:'🌳',t:'Sorti dans la nature',s:'Reflechissez a la creation d\'Allah'},
+    {em:'🫂',t:'Embrasse un parent',s:'Honorer les parents est parmi les plus grands actes'}
   ],today:'Aujourd\'hui',total:'Total',
   roadT:'Programme par âge',roadD:'Que transmettre à chaque étape',
   road:[
@@ -383,18 +535,79 @@ fr:{
     {ic:'🕌',t:'Ne prie pas',p:'Évite la prière',sol:'Encourager — Prier devant lui — Mosquée — Ne pas crier — Après 10 : fermeté progressive.'},
     {ic:'📱',t:'Addiction écrans',p:'Heures sur appareils',sol:'Règles claires — Alternatives — Modèle — Surveiller — Temps familial sans écrans.'},
     {ic:'👊',t:'Frappe les autres',p:'Agressif',sol:'Ne pas frapper pour enseigner ! — Expression verbale — Justice — Récompenser le calme.'},
-    {ic:'😰',t:'Très timide',p:'Peur des gens',sol:'Ne pas qualifier « timide » — Exposition graduelle — Louer les tentatives — Sports collectifs.'}
+    {ic:'😰',t:'Tres timide',p:'Peur des gens',sol:'Ne pas qualifier « timide » — Exposition graduelle — Louer les tentatives — Sports collectifs.'},
+    {ic:'🍽️',t:'Difficile a nourrir',p:'Refuse la nourriture',sol:'<strong>Ne forcez pas :</strong> Offrez des choix — Laissez-le aider a cuisiner — Pas de sucreries avant les repas — Patience.'},
+    {ic:'😢',t:'Pleure beaucoup',p:'Tres sensible',sol:'<strong>Ne dites pas « arrete de pleurer » :</strong> Ecoutez ses sentiments — Aidez-le a s\'exprimer — Les calins calment — Securite emotionnelle d\'abord.'},
+    {ic:'🤝',t:'Pas d\'amis',p:'Isole',sol:'Invitez des enfants — Activites de groupe — Mosquee — Competences sociales par la pratique.'},
+    {ic:'📝',t:'Ne veut pas etudier',p:'Deteste l\'ecole',sol:'<strong>Causes :</strong> Difficulte — Ennui — Peur de l\'echec.<br><strong>Fix :</strong> Bon environnement — Horaire fixe — Recompenses — Apprendre en jouant.'}
   ],
-  ftrV:'« Seigneur, fais que nos épouses et nos descendants soient la prunelle de nos yeux. » (25:74)',
-  ftrC:'📖 Tarbiyat al-Awlad — Inspiré du livre « Éduquer les enfants en Islam »',
-  clickMore:'Cliquez pour détails →',
+  hadithsT:'📿 Hadiths sur l\'education',hadithsD:'Traditions prophetiques sur l\'education des enfants',
+  hadithsList:[
+    {text:'Ordonnez a vos enfants de prier a sept ans et disciplinez-les a dix',src:'Abu Dawud',cat:'Priere'},
+    {text:'Honorez vos enfants et perfectionnez leur education',src:'Ibn Majah',cat:'Honneur'},
+    {text:'Le meilleur cadeau d\'un parent est de bonnes manieres',src:'Tirmidhi',cat:'Manieres'},
+    {text:'Chacun de vous est un berger responsable de son troupeau',src:'Unanimement reconnu',cat:'Responsabilite'},
+    {text:'Enseignez a vos enfants la natation, le tir et l\'equitation',src:'Tradition d\'Umar',cat:'Sport'},
+    {text:'Les meilleurs sont les meilleurs envers leurs familles',src:'Tirmidhi',cat:'Famille'},
+    {text:'Soyez doux avec ces vases fragiles',src:'Bukhari',cat:'Filles'},
+    {text:'Celui qui eleve deux filles viendra le Jour du Jugement comme ceci avec moi',src:'Muslim',cat:'Filles'},
+    {text:'N\'est pas des notres celui qui ne montre pas de misericorde aux petits',src:'Tirmidhi',cat:'Misericorde'},
+    {text:'O Allah, je me refugie aupres de Toi contre un enfant qui devient un fardeau',src:'Dua traditionnelle',cat:'Dua'}
+  ],
+  rightsT:'🌟 Droits de l\'enfant en Islam',rightsD:'Droits que l\'Islam a garantis aux enfants',
+  rightsList:[
+    {ic:'💍',t:'Choisir une mere pieuse',d:'L\'enfant a droit a un pere qui choisit une mere pieuse de bonne foi.'},
+    {ic:'📛',t:'Un beau prenom',d:'Le nouveau-ne a droit a un beau prenom qui ne cause pas de gene.'},
+    {ic:'🍼',t:'Allaitement et provision',d:'L\'enfant a droit a deux ans d\'allaitement et une provision adequate.'},
+    {ic:'📚',t:'Education',d:'L\'enfant a droit a l\'apprentissage de la lecture, l\'ecriture et la religion.'},
+    {ic:'⚖️',t:'Justice entre freres',d:'L\'enfant a droit a un traitement equitable entre freres et soeurs.'},
+    {ic:'💪',t:'Sante et sport',d:'L\'enfant a droit aux soins de sante et a l\'encouragement sportif.'},
+    {ic:'🤗',t:'Amour et securite',d:'L\'enfant a droit a l\'amour, la securite et la stabilite psychologique.'},
+    {ic:'🗣️',t:'Etre ecoute',d:'L\'enfant a droit a etre ecoute et a participer aux discussions familiales.'}
+  ],
+  goalsT:'🎯 Objectifs de l\'education',goalsD:'Les grands objectifs de l\'education islamique',
+  goalsList:[
+    {n:'1',t:'Un serviteur pieux',d:'L\'objectif supreme : former une personne qui adore Allah correctement.'},
+    {n:'2',t:'Personnalite equilibree',d:'Construire une personnalite equilibree spirituellement, intellectuellement et physiquement.'},
+    {n:'3',t:'Bon citoyen',d:'Former un individu qui profite a sa communaute et contribue a la construire.'},
+    {n:'4',t:'Leader influent',d:'Preparer une generation qui dirige et ordonne le bien et interdit le mal.'},
+    {n:'5',t:'Porteur de message',d:'Elever des enfants qui portent le message de l\'Islam par l\'exemple et la parole.'}
+  ],
+  quotesT:'💬 Sagesse educative',quotesD:'Citations de sagesse des savants de l\'Islam',
+  quotesList:[
+    {q:'Eduque ton enfant petit et il te rejouira grand',s:'Ali ibn Abi Talib'},
+    {q:'L\'enseignement dans l\'enfance est comme la gravure dans la pierre',s:'Proverbe arabe'},
+    {q:'Joue avec ton enfant 7 ans, eduque-le 7 ans, sois son ami 7 ans',s:'Sagesse educative'},
+    {q:'Vos enfants sont un don d\'Allah — ne les gaspillez pas',s:'Abdullah Nasih Ulwan'},
+    {q:'Aucun parent n\'a laisse a son enfant quelque chose de mieux que de bonnes manieres',s:'Hadith prophetique'},
+    {q:'Plante la foi dans ton enfant avant que Satan ne plante le doute',s:'Ibn al-Qayyim'},
+    {q:'La mere est une ecole — prepare-la bien et tu prepares une nation',s:'Hafiz Ibrahim'},
+    {q:'Le baton est pour le desobeissant, les bonbons pour l\'obeissant — mais les bonbons d\'abord',s:'Sagesse educative'}
+  ],
+  routineT:'🏅 Routine quotidienne islamique',routineD:'Programme quotidien suggere pour l\'enfant musulman',
+  routineList:[
+    {time:'🌅 Fajr',items:['Se lever pour la priere du Fajr','Invocations du matin','Lire une portion du Coran']},
+    {time:'☀️ Matin',items:['Petit dejeuner avec Bismillah','Ecole ou apprentissage','Etude et revision']},
+    {time:'🕐 Dhuhr',items:['Priere du Dhuhr','Dejeuner en famille','Courte sieste']},
+    {time:'🌤️ Asr',items:['Priere d\'Asr','Sport et jeux','Temps pour les talents et loisirs']},
+    {time:'🌆 Maghrib',items:['Priere du Maghrib','Memorisation du Coran','Temps en famille et dialogue']},
+    {time:'🌙 Isha',items:['Priere d\'Isha','Revision et lecture','Invocations du sommeil et coucher tot']}
+  ],
+  ftrV:'« Seigneur, fais que nos epouses et nos descendants soient la prunelle de nos yeux. » (25:74)',
+  ftrC:'📖 Tarbiyat al-Awlad — Inspire du livre « Eduquer les enfants en Islam »',
+  clickMore:'Cliquez pour details →',
   homeCards:[
-    {ic:'📖',t:'Leçons',d:'Les 7 responsabilités avec exemples du Coran et Sunna.',to:'lessons'},
-    {ic:'🛠️',t:'Méthodes',d:'Exemple, Habitude, Conseil, Observation, Discipline.',to:'methods'},
-    {ic:'🤔',t:'Que ferais-tu ?',d:'Scénarios moraux avec guidance islamique.',to:'scenarios'},
-    {ic:'📊',t:'Auto-évaluation',d:'Évaluez votre comportement quotidien.',to:'assess'},
-    {ic:'👶',t:'Parcours par âge',d:'De la naissance à la puberté.',to:'roadmap'},
-    {ic:'💡',t:'Solutions',d:'Mensonge, entêtement, prière... avec solutions.',to:'solver'}
+    {ic:'📖',t:'Lecons',d:'Les 7 responsabilites avec exemples du Coran et Sunna.',to:'lessons'},
+    {ic:'🛠️',t:'Methodes',d:'Exemple, Habitude, Conseil, Observation, Discipline.',to:'methods'},
+    {ic:'🤔',t:'Que ferais-tu ?',d:'Scenarios moraux avec guidance islamique.',to:'scenarios'},
+    {ic:'📊',t:'Auto-evaluation',d:'Evaluez votre comportement quotidien.',to:'assess'},
+    {ic:'👶',t:'Parcours par age',d:'De la naissance a la puberte.',to:'roadmap'},
+    {ic:'💡',t:'Solutions',d:'Mensonge, entetement, priere... avec solutions.',to:'solver'},
+    {ic:'📿',t:'Hadiths',d:'Traditions prophetiques sur l\'education.',to:'hadiths'},
+    {ic:'🌟',t:'Droits de l\'enfant',d:'Droits garantis par l\'Islam aux enfants.',to:'rights'},
+    {ic:'🎯',t:'Objectifs',d:'Les grands objectifs de l\'education islamique.',to:'goals'},
+    {ic:'💬',t:'Sagesse',d:'Citations de sagesse des savants de l\'Islam.',to:'quotes'},
+    {ic:'🏅',t:'Routine quotidienne',d:'Programme quotidien pour l\'enfant musulman.',to:'routine'}
   ]
 }
 };
@@ -403,120 +616,406 @@ fr:{
 let lang='ar',sec='about',scenState={},assessState={};
 
 /* ═══ INIT ═══ */
-document.addEventListener('DOMContentLoaded',()=>{
-  loadAssess();loadTheme();
-  setLang('ar');go('about');
-  initSplash();initScroll();
-  document.querySelectorAll('.lang-opt').forEach(b=>b.onclick=()=>{setLang(b.dataset.l);playSound('click')});
-  document.getElementById('logo').onclick=()=>go('home');
-  document.getElementById('theme-toggle').onclick=cycleTheme;
-  document.getElementById('fab-dua').onclick=openDuaModal;
+document.addEventListener('DOMContentLoaded', () => {
+  // Load saved state
+  loadAssess();
+  loadTheme();
+
+  // Set default language and section
+  setLang('ar');
+  go('about');
+
+  // Initialize interactive features
+  initSplash();
+  initScroll();
+
+  // Language switcher buttons
+  document.querySelectorAll('.lang-opt').forEach(b => {
+    b.onclick = () => {
+      setLang(b.dataset.l);
+      playSound('click');
+    };
+  });
+
+  // Logo click goes home
+  document.getElementById('logo').onclick = () => go('home');
+
+  // Theme toggle
+  document.getElementById('theme-toggle').onclick = cycleTheme;
+
+  // Dua modal button
+  document.getElementById('fab-dua').onclick = openDuaModal;
 });
 
 /* ═══ LANGUAGE ═══ */
 function setLang(l){
-  lang=l;const t=L[l];
-  document.body.className=t.dir==='rtl'?'rtl':'';
-  document.documentElement.lang=l;
-  document.documentElement.dir=t.dir;
-  document.querySelectorAll('.lang-opt').forEach(b=>b.classList.toggle('on',b.dataset.l===l));
-  document.getElementById('logo-text').textContent=t.title;
-  document.getElementById('splash-title').textContent=t.title;
-  document.getElementById('dua-modal-title').textContent=t.duaTitle;
-  // bottom tabs
-  document.getElementById('btabs').innerHTML=t.tabs.map((ic,i)=>`<button class="btab${t.tabK[i]===sec?' on':''}" onclick="go('${t.tabK[i]}');playSound('click')"><span class="bi">${ic}</span>${t.tabL[i]}</button>`).join('');
-  rHome(t);rAbout(t);rLessons(t);rMethods(t);rScenarios(t);rAssess(t);rRoad(t);rSolver(t);
+  lang = l;
+  const t = L[l];
+  document.body.className = t.dir === 'rtl' ? 'rtl' : '';
+  document.documentElement.lang = l;
+  document.documentElement.dir = t.dir;
+  document.querySelectorAll('.lang-opt').forEach(b => {
+    b.classList.toggle('on', b.dataset.l === l);
+  });
+  document.getElementById('logo-text').textContent = t.title;
+  document.getElementById('splash-title').textContent = t.title;
+  document.getElementById('dua-modal-title').textContent = t.duaTitle;
+
+  // Build bottom tabs
+  document.getElementById('btabs').innerHTML = t.tabs.map((ic, i) => `
+    <button class="btab${t.tabK[i] === sec ? ' on' : ''}"
+      onclick="go('${t.tabK[i]}');playSound('click')">
+      <span class="bi">${ic}</span>${t.tabL[i]}
+    </button>`
+  ).join('');
+
+  // Render all sections
+  rHome(t);
+  rAbout(t);
+  rLessons(t);
+  rMethods(t);
+  rScenarios(t);
+  rAssess(t);
+  rRoad(t);
+  rSolver(t);
+  rHadiths(t);
+  rRights(t);
+  rGoals(t);
+  rQuotes(t);
+  rRoutine(t);
   updTabs();
 }
 
 /* ═══ NAVIGATION ═══ */
 function go(id){
-  sec=id;
-  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
-  const el=document.getElementById('s-'+id);if(el)el.classList.add('on');
+  sec = id;
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  const el = document.getElementById('s-' + id);
+  if (el) el.classList.add('on');
   updTabs();
-  window.scrollTo({top:0,behavior:'smooth'});
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
 function updTabs(){
-  document.querySelectorAll('.btab').forEach((b,i)=>{
-    const t=L[lang];b.classList.toggle('on',t.tabK[i]===sec);
+  document.querySelectorAll('.btab').forEach((b, i) => {
+    const t = L[lang];
+    b.classList.toggle('on', t.tabK[i] === sec);
   });
 }
 
 /* ═══ RENDERERS ═══ */
+
 function rHome(t){
-  document.getElementById('s-home').innerHTML=`<div class="g3">${t.homeCards.map(c=>`
-    <div class="card" style="cursor:pointer" onclick="go('${c.to}');playSound('click')">
-      <div style="font-size:1.8rem;margin-bottom:.5rem">${c.ic}</div>
-      <h3>${c.t}</h3><p>${c.d}</p>
-    </div>`).join('')}</div>`;
+  document.getElementById('s-home').innerHTML=`
+    <div class="g3">
+      ${t.homeCards.map(c=>`
+        <div class="card" style="cursor:pointer" onclick="go('${c.to}');playSound('click')">
+          <div style="font-size:1.8rem;margin-bottom:.5rem">${c.ic}</div>
+          <h3>${c.t}</h3>
+          <p>${c.d}</p>
+        </div>`).join('')}
+    </div>`;
 }
+
 function rAbout(t){
-  document.getElementById('s-about').innerHTML=`<div class="sh"><h2>${t.aboutBT}</h2><div class="divl"></div></div>
+  document.getElementById('s-about').innerHTML=`
+    <div class="sh">
+      <h2>${t.aboutBT}</h2>
+      <div class="divl"></div>
+    </div>
     <div class="g2">
-      <div class="card"><h3>${t.aboutAT}</h3><p>${t.aboutA}</p></div>
-      <div class="card"><h3>${t.aboutBT}</h3><p>${t.aboutB}</p>
-        <div class="stats-row"><div class="stat-box"><div class="n">2</div><div class="l">${t.vols}</div></div><div class="stat-box"><div class="n">1024</div><div class="l">${t.pgs}</div></div><div class="stat-box"><div class="n">21+</div><div class="l">${t.eds}</div></div></div>
-      </div></div>
-    <div class="card" style="margin-top:1rem"><h3>${t.aboutST}</h3><p>${t.aboutS}</p></div>`;
+      <div class="card">
+        <h3>${t.aboutAT}</h3>
+        <p>${t.aboutA}</p>
+      </div>
+      <div class="card">
+        <h3>${t.aboutBT}</h3>
+        <p>${t.aboutB}</p>
+        <div class="stats-row">
+          <div class="stat-box"><div class="n">2</div><div class="l">${t.vols}</div></div>
+          <div class="stat-box"><div class="n">1024</div><div class="l">${t.pgs}</div></div>
+          <div class="stat-box"><div class="n">21+</div><div class="l">${t.eds}</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:1rem">
+      <h3>${t.aboutST}</h3>
+      <p>${t.aboutS}</p>
+    </div>`;
 }
+
 function rLessons(t){
-  document.getElementById('s-lessons').innerHTML=`<div class="sh"><h2>${t.lessonsT}</h2><div class="divl"></div><p>${t.lessonsD}</p></div>
-    <div class="g2">${t.lessons.map(l=>`
-      <div class="lcard" onclick="this.classList.toggle('open');playSound('click')">
-        <div class="lcard-top"><div class="lcard-num">${l.n}</div><h3>${l.t}</h3><div class="sub">${l.sub}</div></div>
-        <div class="lcard-body"><p>${l.p}</p><div class="more">${t.clickMore}</div><div class="detail">${l.d}</div></div>
-      </div>`).join('')}</div>`;
+  document.getElementById('s-lessons').innerHTML=`
+    <div class="sh">
+      <h2>${t.lessonsT}</h2>
+      <div class="divl"></div>
+      <p>${t.lessonsD}</p>
+    </div>
+    <div class="g2">
+      ${t.lessons.map(l=>`
+        <div class="lcard" onclick="this.classList.toggle('open');playSound('click')">
+          <div class="lcard-top">
+            <div class="lcard-num">${l.n}</div>
+            <h3>${l.t}</h3>
+            <div class="sub">${l.sub}</div>
+          </div>
+          <div class="lcard-body">
+            <p>${l.p}</p>
+            <div class="more">${t.clickMore}</div>
+            <div class="detail">${l.d}</div>
+          </div>
+        </div>`).join('')}
+    </div>`;
 }
+
 function rMethods(t){
-  document.getElementById('s-methods').innerHTML=`<div class="sh"><h2>${t.methT}</h2><div class="divl"></div><p>${t.methD}</p></div>
-    <div class="tl">${t.meths.map((m,i)=>`
-      <div class="tl-i" data-n="${i+1}"><h3>${m.t}</h3><div class="ar">${m.ar}</div><p>${m.p}</p></div>`).join('')}</div>`;
+  document.getElementById('s-methods').innerHTML=`
+    <div class="sh">
+      <h2>${t.methT}</h2>
+      <div class="divl"></div>
+      <p>${t.methD}</p>
+    </div>
+    <div class="tl">
+      ${t.meths.map((m,i)=>`
+        <div class="tl-i" data-n="${i+1}">
+          <h3>${m.t}</h3>
+          <div class="ar">${m.ar}</div>
+          <p>${m.p}</p>
+        </div>`).join('')}
+    </div>`;
 }
+
 function rScenarios(t){
   scenState={};
-  document.getElementById('s-scenarios').innerHTML=`<div class="sh"><h2>${t.scenT}</h2><div class="divl"></div><p>${t.scenD}</p></div><div id="scen-list">${t.scens.map((s,i)=>scenHTML(s,i,t)).join('')}</div>`;
+  document.getElementById('s-scenarios').innerHTML=`
+    <div class="sh">
+      <h2>${t.scenT}</h2>
+      <div class="divl"></div>
+      <p>${t.scenD}</p>
+    </div>
+    <div id="scen-list">
+      ${t.scens.map((s,i)=>scenHTML(s,i,t)).join('')}
+    </div>`;
 }
+
 function scenHTML(s,i,t){
-  const ans=scenState[i],ltrs=['A','B','C','D'];
-  let fb='';if(ans!==undefined){fb=`<div class="scen-fb show ${ans===s.c?'ok':'no'}">${s.fb}</div>`}
-  return `<div class="scen"><div class="scen-q">${i+1}. ${s.q}</div>
-    <div class="scen-opts">${s.opts.map((o,j)=>{
-      let c='scen-opt';if(ans!==undefined){if(j===s.c)c+=' right';else if(j===ans)c+=' wrng'}
-      return `<button class="${c}" onclick="pickScen(${i},${j})" ${ans!==undefined?'style="pointer-events:none"':''}><span class="letter">${ltrs[j]}</span><span>${o}</span></button>`
-    }).join('')}</div>${fb}</div>`
+  const ans=scenState[i];
+  const ltrs=['A','B','C','D'];
+  let fb='';
+  if(ans!==undefined){
+    fb=`<div class="scen-fb show ${ans===s.c?'ok':'no'}">${s.fb}</div>`;
+  }
+  return `<div class="scen">
+    <div class="scen-q">${i+1}. ${s.q}</div>
+    <div class="scen-opts">
+      ${s.opts.map((o,j)=>{
+        let c='scen-opt';
+        if(ans!==undefined){
+          if(j===s.c) c+=' right';
+          else if(j===ans) c+=' wrng';
+        }
+        return `<button class="${c}" onclick="pickScen(${i},${j})" ${ans!==undefined?'style="pointer-events:none"':''}>
+          <span class="letter">${ltrs[j]}</span>
+          <span>${o}</span>
+        </button>`;
+      }).join('')}
+    </div>
+    ${fb}
+  </div>`;
 }
-function pickScen(i,j){scenState[i]=j;playSound(j===L[lang].scens[i].c?'success':'click');glowBismillah();
-  document.getElementById('scen-list').innerHTML=L[lang].scens.map((s,idx)=>scenHTML(s,idx,L[lang])).join('')}
+
+function pickScen(i,j){
+  scenState[i]=j;
+  playSound(j===L[lang].scens[i].c?'success':'click');
+  glowBismillah();
+  document.getElementById('scen-list').innerHTML=L[lang].scens.map((s,idx)=>scenHTML(s,idx,L[lang])).join('');
+}
 
 function rAssess(t){
   const today=new Date().toISOString().split('T')[0];
-  if(!assessState[today])assessState[today]={};
+  if(!assessState[today]) assessState[today]={};
   const done=Object.values(assessState[today]).filter(Boolean).length;
-  let totalAll=0;Object.values(assessState).forEach(d=>totalAll+=Object.values(d).filter(Boolean).length);
-  const dateStr=new Date().toLocaleDateString(lang==='ar'?'ar-SA':lang==='fr'?'fr-FR':'en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-  document.getElementById('s-assess').innerHTML=`<div class="sh"><h2>${t.assessT}</h2><div class="divl"></div><p>${t.assessD}</p></div>
+  let totalAll=0;
+  Object.values(assessState).forEach(d=>totalAll+=Object.values(d).filter(Boolean).length);
+  const dateStr=new Date().toLocaleDateString(
+    lang==='ar'?'ar-SA':lang==='fr'?'fr-FR':'en-US',
+    {weekday:'long',year:'numeric',month:'long',day:'numeric'}
+  );
+  document.getElementById('s-assess').innerHTML=`
+    <div class="sh">
+      <h2>${t.assessT}</h2>
+      <div class="divl"></div>
+      <p>${t.assessD}</p>
+    </div>
     <div style="max-width:650px;margin:0 auto">
-      <div style="text-align:center;margin-bottom:1rem"><h3 style="color:var(--gold-l);font-size:1rem;font-family:var(--font-cal)">📅 ${dateStr}</h3></div>
-      ${t.assessItems.map((a,i)=>{const ck=assessState[today][i]||false;
-        return `<div class="sa-item ${ck?'done':''}" onclick="toggleA(${i})"><div class="sa-chk">${ck?'✓':''}</div><div class="sa-txt"><h4>${a.t}</h4><p>${a.s}</p></div><div class="sa-em">${a.em}</div></div>`}).join('')}
-      <div class="sa-stats"><div style="text-align:center"><div class="sa-n">${done}/${t.assessItems.length}</div><div class="sa-l">${t.today}</div></div><div style="text-align:center"><div class="sa-n">${totalAll}</div><div class="sa-l">${t.total}</div></div></div>
+      <div style="text-align:center;margin-bottom:1rem">
+        <h3 style="color:var(--gold-l);font-size:1rem;font-family:var(--font-cal)">📅 ${dateStr}</h3>
+      </div>
+      ${t.assessItems.map((a,i)=>{
+        const ck=assessState[today][i]||false;
+        return `<div class="sa-item ${ck?'done':''}" onclick="toggleA(${i})">
+          <div class="sa-chk">${ck?'✓':''}</div>
+          <div class="sa-txt">
+            <h4>${a.t}</h4>
+            <p>${a.s}</p>
+          </div>
+          <div class="sa-em">${a.em}</div>
+        </div>`;
+      }).join('')}
+      <div class="sa-stats">
+        <div style="text-align:center">
+          <div class="sa-n">${done}/${t.assessItems.length}</div>
+          <div class="sa-l">${t.today}</div>
+        </div>
+        <div style="text-align:center">
+          <div class="sa-n">${totalAll}</div>
+          <div class="sa-l">${t.total}</div>
+        </div>
+      </div>
     </div>`;
 }
-function toggleA(i){const today=new Date().toISOString().split('T')[0];if(!assessState[today])assessState[today]={};
-  assessState[today][i]=!assessState[today][i];saveAssess();playSound(assessState[today][i]?'success':'click');
-  if(assessState[today][i])glowBismillah();rAssess(L[lang])}
-function loadAssess(){try{assessState=JSON.parse(localStorage.getItem('tarbiya-assess'))||{}}catch{assessState={}}}
-function saveAssess(){try{localStorage.setItem('tarbiya-assess',JSON.stringify(assessState))}catch{}}
+
+function toggleA(i){
+  const today=new Date().toISOString().split('T')[0];
+  if(!assessState[today]) assessState[today]={};
+  assessState[today][i]=!assessState[today][i];
+  saveAssess();
+  playSound(assessState[today][i]?'success':'click');
+  if(assessState[today][i]) glowBismillah();
+  rAssess(L[lang]);
+}
+
+function loadAssess(){
+  try{ assessState=JSON.parse(localStorage.getItem('tarbiya-assess'))||{}; }
+  catch{ assessState={}; }
+}
+
+function saveAssess(){
+  try{ localStorage.setItem('tarbiya-assess',JSON.stringify(assessState)); }
+  catch{}
+}
 
 function rRoad(t){
-  document.getElementById('s-roadmap').innerHTML=`<div class="sh"><h2>${t.roadT}</h2><div class="divl"></div><p>${t.roadD}</p></div>
-    ${t.road.map(r=>`<div class="age-row"><div class="age-badge"><div class="yr">${r.age}</div><div class="lbl">${r.lbl}</div></div>
-      <div class="age-content"><h4>${r.title}</h4><ul>${r.items.map(it=>`<li>${it}</li>`).join('')}</ul></div></div>`).join('')}`;
+  document.getElementById('s-roadmap').innerHTML=`
+    <div class="sh">
+      <h2>${t.roadT}</h2>
+      <div class="divl"></div>
+      <p>${t.roadD}</p>
+    </div>
+    ${t.road.map(r=>`
+      <div class="age-row">
+        <div class="age-badge">
+          <div class="yr">${r.age}</div>
+          <div class="lbl">${r.lbl}</div>
+        </div>
+        <div class="age-content">
+          <h4>${r.title}</h4>
+          <ul>${r.items.map(it=>`<li>${it}</li>`).join('')}</ul>
+        </div>
+      </div>`).join('')}`;
 }
 function rSolver(t){
   document.getElementById('s-solver').innerHTML=`<div class="sh"><h2>${t.solveT}</h2><div class="divl"></div><p>${t.solveD}</p></div>
     <div class="ps-grid">${t.solves.map(s=>`
       <div class="ps-card" onclick="this.classList.toggle('open');playSound('click')"><div class="ic">${s.ic}</div><h4>${s.t}</h4><p>${s.p}</p>
         <div class="more-s">${t.clickMore}</div><div class="sol">${s.sol}</div></div>`).join('')}</div>`;
+}
+
+/* ═══ RENDERER: HADITHS ═══ */
+function rHadiths(t){
+  document.getElementById('s-hadiths').innerHTML=`
+    <div class="sh">
+      <h2>${t.hadithsT}</h2>
+      <div class="divl"></div>
+      <p>${t.hadithsD}</p>
+    </div>
+    <div style="max-width:700px;margin:0 auto">
+      ${t.hadithsList.map(h=>`
+        <div class="card" style="margin-bottom:1rem;border-right:3px solid var(--gold)">
+          <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem">
+            <span style="background:var(--gold);color:var(--bg1);padding:.2rem .6rem;border-radius:var(--r-s);font-size:.7rem">
+              ${h.cat}
+            </span>
+          </div>
+          <p style="font-family:var(--font-cal);font-size:1rem;color:var(--gold-l);line-height:1.9;margin-bottom:.4rem">
+            «${h.text}»
+          </p>
+          <p style="font-size:.75rem;color:var(--text3)">${h.src}</p>
+        </div>`).join('')}
+    </div>`;
+}
+
+/* ═══ RENDERER: RIGHTS ═══ */
+function rRights(t){
+  document.getElementById('s-rights').innerHTML=`
+    <div class="sh">
+      <h2>${t.rightsT}</h2>
+      <div class="divl"></div>
+      <p>${t.rightsD}</p>
+    </div>
+    <div class="g2">
+      ${t.rightsList.map(r=>`
+        <div class="card">
+          <div style="font-size:1.8rem;margin-bottom:.5rem">${r.ic}</div>
+          <h3>${r.t}</h3>
+          <p>${r.d}</p>
+        </div>`).join('')}
+    </div>`;
+}
+
+/* ═══ RENDERER: GOALS ═══ */
+function rGoals(t){
+  document.getElementById('s-goals').innerHTML=`
+    <div class="sh">
+      <h2>${t.goalsT}</h2>
+      <div class="divl"></div>
+      <p>${t.goalsD}</p>
+    </div>
+    <div class="tl">
+      ${t.goalsList.map(g=>`
+        <div class="tl-i" data-n="${g.n}">
+          <h3>${g.t}</h3>
+          <p>${g.d}</p>
+        </div>`).join('')}
+    </div>`;
+}
+
+/* ═══ RENDERER: QUOTES ═══ */
+function rQuotes(t){
+  document.getElementById('s-quotes').innerHTML=`
+    <div class="sh">
+      <h2>${t.quotesT}</h2>
+      <div class="divl"></div>
+      <p>${t.quotesD}</p>
+    </div>
+    <div style="max-width:700px;margin:0 auto">
+      ${t.quotesList.map(q=>`
+        <div class="card" style="margin-bottom:1rem;text-align:center;padding:1.5rem">
+          <p style="font-family:var(--font-cal);font-size:1.1rem;color:var(--gold-l);line-height:1.8;margin-bottom:.5rem">
+            «${q.q}»
+          </p>
+          <p style="font-size:.8rem;color:var(--text3)">— ${q.s}</p>
+        </div>`).join('')}
+    </div>`;
+}
+
+/* ═══ RENDERER: ROUTINE ═══ */
+function rRoutine(t){
+  document.getElementById('s-routine').innerHTML=`
+    <div class="sh">
+      <h2>${t.routineT}</h2>
+      <div class="divl"></div>
+      <p>${t.routineD}</p>
+    </div>
+    ${t.routineList.map(r=>`
+      <div class="age-row" style="margin-bottom:1rem">
+        <div class="age-badge" style="min-width:90px">
+          <div class="yr" style="font-size:1.2rem">${r.time}</div>
+        </div>
+        <div class="age-content">
+          <ul>
+            ${r.items.map(it=>`<li>${it}</li>`).join('')}
+          </ul>
+        </div>
+      </div>`).join('')}`;
 }
