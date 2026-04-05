@@ -55,7 +55,7 @@ function cycleTheme(){
   const t=themes[themeIdx];
   document.documentElement.setAttribute('data-theme',t==='default'?'':t);
   const icons={'default':'🌙','light':'☀️','zellige':'✦'};
-  document.getElementById('theme-toggle').textContent=icons[t]||'🌙';
+  { const _e=document.getElementById('theme-toggle'); if(_e) _e.textContent=icons[t]||'🌙'; }
   localStorage.setItem('tarbiya-theme',t);
   playSound('theme');
   showToast(t==='default'?'Mosque Gold':t==='light'?'Light':'Zellige');
@@ -65,7 +65,7 @@ function loadTheme(){
   themeIdx=themes.indexOf(t);if(themeIdx<0)themeIdx=0;
   if(t!=='default')document.documentElement.setAttribute('data-theme',t);
   const icons={'default':'🌙','light':'☀️','zellige':'✦'};
-  document.getElementById('theme-toggle').textContent=icons[t]||'🌙';
+  { const _e=document.getElementById('theme-toggle'); if(_e) _e.textContent=icons[t]||'🌙'; }
 }
 
 /* ═══ SCROLL BEHAVIORS ═══ */
@@ -112,8 +112,8 @@ function toggleHelp(){
 function renderHelp(){
   const t=L[lang];
   const h=t.help||HELP_DATA[lang]||HELP_DATA.en;
-  document.getElementById('help-title').textContent=h.title;
-  document.getElementById('help-body').innerHTML=h.sections.map(s=>
+  { const _e=document.getElementById('help-title'); if(_e) _e.textContent=h.title; }
+  (document.getElementById('help-body')||{}).innerHTML=h.sections.map(s=>
     `<div class="help-section"><h4>${s.icon} ${s.title}</h4>${s.html}</div>`
   ).join('')+`<div class="help-dua">${h.dua}</div>`;
 }
@@ -657,12 +657,12 @@ function setLang(l){
   document.querySelectorAll('.lang-opt').forEach(b => {
     b.classList.toggle('on', b.dataset.l === l);
   });
-  document.getElementById('logo-text').textContent = t.title;
-  document.getElementById('splash-title').textContent = t.title;
-  document.getElementById('dua-modal-title').textContent = t.duaTitle;
+  { const _e=document.getElementById('logo-text'); if(_e) _e.textContent=t.title; }
+  { const _e=document.getElementById('splash-title'); if(_e) _e.textContent=t.title; }
+  { const _e=document.getElementById('dua-modal-title'); if(_e) _e.textContent=t.duaTitle; }
 
   // Build bottom tabs
-  document.getElementById('btabs').innerHTML = t.tabs.map((ic, i) => `
+  (document.getElementById('btabs')||{}).innerHTML= t.tabs.map((ic, i) => `
     <button class="btab${t.tabK[i] === sec ? ' on' : ''}"
       onclick="go('${t.tabK[i]}');playSound('click')">
       <span class="bi">${ic}</span>${t.tabL[i]}
@@ -706,7 +706,7 @@ function updTabs(){
 /* ═══ RENDERERS ═══ */
 
 function rHome(t){
-  document.getElementById('s-home').innerHTML=`
+  (document.getElementById('s-home')||{}).innerHTML=`
     <div class="g3">
       ${t.homeCards.map(c=>`
         <div class="card" style="cursor:pointer" onclick="go('${c.to}');playSound('click')">
@@ -718,7 +718,7 @@ function rHome(t){
 }
 
 function rAbout(t){
-  document.getElementById('s-about').innerHTML=`
+  (document.getElementById('s-about')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.aboutBT}</h2>
       <div class="divl"></div>
@@ -745,7 +745,7 @@ function rAbout(t){
 }
 
 function rLessons(t){
-  document.getElementById('s-lessons').innerHTML=`
+  (document.getElementById('s-lessons')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.lessonsT}</h2>
       <div class="divl"></div>
@@ -769,7 +769,7 @@ function rLessons(t){
 }
 
 function rMethods(t){
-  document.getElementById('s-methods').innerHTML=`
+  (document.getElementById('s-methods')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.methT}</h2>
       <div class="divl"></div>
@@ -787,7 +787,7 @@ function rMethods(t){
 
 function rScenarios(t){
   scenState={};
-  document.getElementById('s-scenarios').innerHTML=`
+  (document.getElementById('s-scenarios')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.scenT}</h2>
       <div class="divl"></div>
@@ -828,7 +828,7 @@ function pickScen(i,j){
   scenState[i]=j;
   playSound(j===L[lang].scens[i].c?'success':'click');
   glowBismillah();
-  document.getElementById('scen-list').innerHTML=L[lang].scens.map((s,idx)=>scenHTML(s,idx,L[lang])).join('');
+  (document.getElementById('scen-list')||{}).innerHTML=L[lang].scens.map((s,idx)=>scenHTML(s,idx,L[lang])).join('');
 }
 
 function rAssess(t){
@@ -841,7 +841,7 @@ function rAssess(t){
     lang==='ar'?'ar-SA':lang==='fr'?'fr-FR':'en-US',
     {weekday:'long',year:'numeric',month:'long',day:'numeric'}
   );
-  document.getElementById('s-assess').innerHTML=`
+  (document.getElementById('s-assess')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.assessT}</h2>
       <div class="divl"></div>
@@ -896,7 +896,7 @@ function saveAssess(){
 }
 
 function rRoad(t){
-  document.getElementById('s-roadmap').innerHTML=`
+  (document.getElementById('s-roadmap')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.roadT}</h2>
       <div class="divl"></div>
@@ -915,7 +915,7 @@ function rRoad(t){
       </div>`).join('')}`;
 }
 function rSolver(t){
-  document.getElementById('s-solver').innerHTML=`<div class="sh"><h2>${t.solveT}</h2><div class="divl"></div><p>${t.solveD}</p></div>
+  (document.getElementById('s-solver')||{}).innerHTML=`<div class="sh"><h2>${t.solveT}</h2><div class="divl"></div><p>${t.solveD}</p></div>
     <div class="ps-grid">${t.solves.map(s=>`
       <div class="ps-card" onclick="this.classList.toggle('open');playSound('click')"><div class="ic">${s.ic}</div><h4>${s.t}</h4><p>${s.p}</p>
         <div class="more-s">${t.clickMore}</div><div class="sol">${s.sol}</div></div>`).join('')}</div>`;
@@ -923,7 +923,7 @@ function rSolver(t){
 
 /* ═══ RENDERER: HADITHS ═══ */
 function rHadiths(t){
-  document.getElementById('s-hadiths').innerHTML=`
+  (document.getElementById('s-hadiths')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.hadithsT}</h2>
       <div class="divl"></div>
@@ -947,7 +947,7 @@ function rHadiths(t){
 
 /* ═══ RENDERER: RIGHTS ═══ */
 function rRights(t){
-  document.getElementById('s-rights').innerHTML=`
+  (document.getElementById('s-rights')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.rightsT}</h2>
       <div class="divl"></div>
@@ -965,7 +965,7 @@ function rRights(t){
 
 /* ═══ RENDERER: GOALS ═══ */
 function rGoals(t){
-  document.getElementById('s-goals').innerHTML=`
+  (document.getElementById('s-goals')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.goalsT}</h2>
       <div class="divl"></div>
@@ -982,7 +982,7 @@ function rGoals(t){
 
 /* ═══ RENDERER: QUOTES ═══ */
 function rQuotes(t){
-  document.getElementById('s-quotes').innerHTML=`
+  (document.getElementById('s-quotes')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.quotesT}</h2>
       <div class="divl"></div>
@@ -1001,7 +1001,7 @@ function rQuotes(t){
 
 /* ═══ RENDERER: ROUTINE ═══ */
 function rRoutine(t){
-  document.getElementById('s-routine').innerHTML=`
+  (document.getElementById('s-routine')||{}).innerHTML=`
     <div class="sh">
       <h2>${t.routineT}</h2>
       <div class="divl"></div>
