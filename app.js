@@ -9,13 +9,11 @@ let splashTimer;
 function initSplash(){
   let c=3;
   const el=document.getElementById('splash-count');
-  if (!el) return;
   splashTimer=setInterval(()=>{c--;el.textContent=c;if(c<=0)dismissSplash()},1000);
 }
 function dismissSplash(){
   clearInterval(splashTimer);
   const s=document.getElementById('splash');
-  if (!s) return;
   s.classList.add('hide');
   setTimeout(()=>s.style.display='none',700);
   playSound('success');
@@ -39,7 +37,6 @@ function playSound(type){
 /* ═══ TOAST ═══ */
 function showToast(msg,ms=2500){
   const t=document.getElementById('toast');
-  if (!t) return;
   t.textContent=msg;t.classList.add('show');
   setTimeout(()=>t.classList.remove('show'),ms);
 }
@@ -47,7 +44,6 @@ function showToast(msg,ms=2500){
 /* ═══ BISMILLAH GLOW ═══ */
 function glowBismillah(){
   const b=document.getElementById('bismillah');
-  if (!b) return;
   b.classList.add('glow');setTimeout(()=>b.classList.remove('glow'),2000);
 }
 
@@ -75,7 +71,6 @@ function loadTheme(){
 /* ═══ SCROLL BEHAVIORS ═══ */
 function initScroll(){
   const fab=document.getElementById('fab-top');
-  if (!fab) return;
   window.addEventListener('scroll',()=>{
     fab.classList.toggle('show',window.scrollY>300);
   },{passive:true});
@@ -101,7 +96,6 @@ const DUAS=[
 function openDuaModal(){
   document.getElementById('dua-modal').classList.add('show');
   const body=document.getElementById('dua-modal-body');
-  if (!body) return;
   body.innerHTML=DUAS.map(d=>`<div style="margin-bottom:1rem;padding:1rem;background:var(--bg2);border-radius:var(--r-s);border-right:3px solid var(--gold)">
     <p style="font-family:var(--font-cal);font-size:1.05rem;color:var(--gold-l);line-height:2;margin-bottom:.3rem">${d.ar}</p>
     <p style="font-size:.72rem;color:var(--text3)">${d.src}</p></div>`).join('');
@@ -111,7 +105,6 @@ function closeDuaModal(){document.getElementById('dua-modal').classList.remove('
 /* ═══ HELP PANEL ═══ */
 function toggleHelp(){
   const o=document.getElementById('help-overlay');
-  if (!o) return;
   const show=!o.classList.contains('show');
   o.classList.toggle('show');
   if(show)renderHelp();
